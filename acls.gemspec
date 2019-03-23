@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.license = 'MIT'
 
   s.add_runtime_dependency('activesupport', '~> 5.0.0')
-  s.add_runtime_dependency('parser', '~> 2.3', '>= 2.3.0')
+  s.add_runtime_dependency('parser', '~> 2.3.0')
 
   s.add_development_dependency('rspec', '~> 3.4', '>= 3.4.0')
 end
