@@ -1,5 +1,5 @@
 module ACLS
-  class Parser
+  class RubyParser
     class << self
 
       # Given a base directory, parse all Ruby source files into a custom Tree

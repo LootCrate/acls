@@ -15,7 +15,7 @@ module ACLS
 
       def build_trees(paths, opts)
         paths = [paths] unless paths.respond_to?(:map)
-        paths.map { |path| Parser.parse(path) }
+        paths.map { |path| RubyParser.parse(path) }
       end
 
       def autoload_statement(tree)
